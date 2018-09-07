@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Calculadora</title>
+</head>
+<body>
+	<div class="container mt-2">
+		<form name="fo">
+			<h2 class="text-center display-4">Calculadora Básica JavaScript</h2>
+					<table class="calculadora">
+						<tr>
+							<td colspan="5"> 
+								<input type="text" name="valores" id="valores" onkeypress="return solonumeros(event)"> 
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" value="7" onClick="retornar(value)"></td>
+							<td><input type="button" value="8" onClick="retornar(value)"></td>
+							<td><input type="button" value="9" onClick="retornar(value)"></td>
+							<td><input type="button" value="+" onClick="comprobar(value)"></td>
+							<td><input type="button" value="-" onClick="comprobar(value)"></td>
+						</tr>
+						<tr>
+							<td><input type="button" value="4" onClick="retornar(value)"></td>
+							<td><input type="button" value="5" onClick="retornar(value)"></td>
+							<td><input type="button" value="6" onClick="retornar(value)"></td>
+							<td><input type="button" value="*" onClick="comprobar(value)"></td>
+							<td><input type="button" value="/" onClick="comprobar(value)"></td>
+						</tr>
+						<tr>
+							<td><input type="button" value="1" onClick="retornar(value)"></td>
+							<td><input type="button" value="2" onClick="retornar(value)"></td>
+							<td><input type="button" value="3" onClick="retornar(value)"></td>
+							<td><input type="button" value="<-" onClick="eliminar()"></td>
+							<td><input type="button" value="C" onClick="eliminar_todo()"></td>
+						</tr>
+						<tr>
+							<td colspan="3"><input type="button" value="0" onClick="retornar(value)"></td>
+							<td colspan="2"><input type="button" value="=" onClick="calcular()"></td>
+						</tr>
+					</table>
+		</form>
+
+	</div>
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/funcion.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.container{
+	border: 1px solid #000;
+	margin: 0 auto;
+	width: 550px;
+	height: 600px;
+	background: rgba(179,220;,237,1)
+	background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 96%, rgba(188,224,238,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(96%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+	background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 96%, rgba(188,224,238,1) 100%);
+	background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 96%, rgba(188,224,238,1) 100%);
+	background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 96%, rgba(188,224,238,1) 100%);
+	background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 96%, rgba(188,224,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+	border-radius: 25px;
+	box-shadow: 0 0 20px #24A3A3;
+}
+
+input[type=button]{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	border-radius: 10px;
+	background-color: white;
+	padding-top: 5px;
+}
+
+input[type="text"]{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border: 1px solid #000;
+}
+
+h2{
+	margin-bottom: 25px;
+}
+
+table, form{
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
